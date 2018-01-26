@@ -3,27 +3,27 @@
 <h1>Hiring and Promoting</h1>
 
 <p>Hiring vs Promoting
-
-x/y grid
-x = skillset = (knowledg + expertise)
-	range 0 - 100
-y= Experience = (Years of service + Maturity)
-	range 0 – 30
-
-Experience Modifier = {
-	// this is based on technical Expertise & Maturity
-	0 = ( No && No )
-	2 = ( Yes || Yes )
-	3 = ( Yes && Yes )
-}
-
+<br><br>
+x/y grid<br>
+x = skillset = (knowledg + expertise)<br>
+	range 0 - 100<br>
+y= Experience = (Years of service + Maturity)<br>
+	range 0 – 30<br>
+<br><br>
+Experience Modifier = {<br>
+	// this is based on technical Expertise & Maturity<br>
+	0 = ( No && No )<br>
+	2 = ( Yes || Yes )<br>
+	3 = ( Yes && Yes )<br>
+}<br>
+<br>
 Assuming a company has three levels for a given position and those levels are Intern, Junior, and Senior. Given that the minimum requirements for an intern level are y = 0 & x = 10. Given that the minimum requirements for a Junior level are y = 3 & x = 25. Given that the minimum requirements for a Senior level are y = 5 & x = 75. An applicant may qualify for a modifier to the qualifying score if they meet the criteria above.
 The company has a set wage scale for each of the positions. As soon as the employee meets the minimum requirements for a given position they become elligable for that position (does not gaurantee it). Once they receive the position they are moved to a point within the wage scale based on any of the qualifying factors (past performance, experience, maturity, technical expertise, etc.). This wage will never fall below the minimum as long as they hold the position.
 Then wether the applicant is internal or external they may only start as an Intern if they do not meet the requirements for a Junior or Senior position. An Intern posistion will be lower than the established wage scale set for a Junior or Senior position, in the case of an internal employee desiring to promote up to a Junior or Senior position may not receive an increase while training & performing duties related to the Itern position. An external hire could be brought in at any of the positions as long as they meet the minimum requirements and pass a trial period (often 30 to 90 days).
-
-
+<br>
+<br>
 Example 1: An applicant has been working for the company for 1 year. They have proven to have a basic understanding of 15% of the required duties for the position they desire. They have also demonstrated high levels of Maturity when it comes to leadership and problem solving. Written communications skill could use improvement. Based on the assesment the reviewing/hiring managers came to a consensus and gave them a score which when averaged came to (x:15, y:1) with a modifier of 2 because of the demonstrated Maturity in leadership and problem solving. With the modifier the final rating is (x:15, y:3). While this applicant does not meed the requirements for a Junior position they fall neatly into the Intern position where they could grow into a Junior position.
-
+<br><br>
 Calculation for above: ( x: 15% knowledge + 0% expertise , y: (1yr + 0 maturity in desired position) + Modifier of 2 for demonstrated leadership & problem solving ability)
 </p>
 </body>
