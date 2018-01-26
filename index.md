@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="styles.css"></link>
 	</head>
 		
 	<body>
@@ -15,4 +15,3 @@
 		</div>		
 	</body>
 </html>
-
