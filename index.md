@@ -3,7 +3,7 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<div id="header"><h1>Hello World</h1></div>
+	<div id="header"><h1>Benjamin E. Young</h1></div>
 	<img src="images/jalama_1.png" alt="hi" class="inline"/>
 	<div>
 		<p>I'm hosted with GitHub Pages.</p>
